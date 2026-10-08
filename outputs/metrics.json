@@ -1,0 +1,29 @@
+{
+  "n_samples": 485,
+  "n_positive": 85,
+  "n_negative": 400,
+  "cv_auc_mean": 0.960735294117647,
+  "cv_auc_std": 0.01599001274224376,
+  "cv_f1_mean": 0.7404235297511137,
+  "cv_f1_std": 0.05410253289380324,
+  "heldout_test": {
+    "auc": 0.9523809523809523,
+    "precision": 0.6428571428571429,
+    "recall": 0.8571428571428571,
+    "f1": 0.7346938775510204,
+    "tn": 91,
+    "fp": 10,
+    "fn": 3,
+    "tp": 18
+  },
+  "feature_importances": {
+    "elevation": 0.1938285009486653,
+    "slope_deg": 0.06947137298650358,
+    "log_flowacc": 0.020095969549947596,
+    "twi": 0.04516237593355063,
+    "dist_waterway_m": 0.255820190320421,
+    "dist_road_m": 0.41562159026091205
+  },
+  "model": "RandomForestClassifier(n_estimators=500, class_weight=balanced)",
+  "seed": 42
+}
